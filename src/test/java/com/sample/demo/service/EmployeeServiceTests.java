@@ -42,7 +42,6 @@ public class EmployeeServiceTests {
 		c.setMaxSalary(new Long(20000));
 		c.setBeginDate("2007-01-01");
 		c.setEndDate("2010-12-30");
-		
 		employeeService.serchByOther(c);
 	}
 }

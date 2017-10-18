@@ -21,7 +21,6 @@
 			employees
 	</sql>
 	
-	
 	<select id="serchByOpt" parameterType="Criteria" resultType="Employee">
 		<include refid="empselect" />
 		<where>
@@ -70,6 +69,5 @@
 			</if>
 		</where>
 	</select>
-	
 	
 </mapper>
