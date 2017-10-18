@@ -59,7 +59,7 @@
 			</if>
 			<if test="maxSalary != null">
 				and #{maxSalary} >= salary 
-				<!-- &%lt로만 쓸수 있다 < 는 하지만 [CDATA[코드 ]]하면 안에다가도 쓸수있다. (<이걸) 다만 이걸쓰면 그사이에 다른걸쓸수없다.-->
+				<!-- &%lt로만 쓸수 있다 < 는 하지만 [CDATA[코드 ]]하면 안에다가도 쓸수있다.  (<이걸) 다만 이걸쓰면 그사이에 다른걸쓸수없다.-->
 			</if>
 			<if test="beginDate != null">
 				and to_char(hire_date, 'yyyy-MM-dd') >= #{beginDate}
